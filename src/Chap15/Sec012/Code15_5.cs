@@ -1,0 +1,3 @@
+interface IGreeting {
+    string GetMessage();
+}

@@ -1,0 +1,45 @@
+   1: // これは入力ファイルとして利用
+   2: 
+   3: using System;
+   4: using System.Collections.Generic;
+   5: 
+   6: public static class List4_26_Sample {
+   7:     public static Product? Run() {
+   8:         Sale? sale = GetSale();
+   9:         return sale?.Product;
+  10:     }
+  11:     static Sale? GetSale() {
+  12:         return null;
+  13:     }
+  14: 
+  15:     private static Product? Other() {
+  16:         Sale? sale = GetSale();
+  17:         if (sale is null)
+  18:             return null;
+  19:         else
+  20:             return sale.Product;
+  21:     }
+  22: 
+  23: 
+  24:     private static Product? Bad() {
+  25:         Sale? sale = GetSale();
+  26:         return sale is null ? null : sale.Product;
+  27: 
+  28:     }
+  29: 
+  30:     public class Sale {
+  31:         // 店舗名   
+  32:         public string ShopName { get; set; } = string.Empty;
+  33: 
+  34:         // 売上高   
+  35:         public int Amount { get; set; }
+  36: 
+  37:         public Product Product { get; set; } = null!;
+  38:     }
+  39: 
+  40:     public class Product {
+  41:         public string Name { get; init; } = null!;
+  42:     }
+  43: 
+  44: 
+  45: }

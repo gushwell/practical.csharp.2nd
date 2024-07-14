@@ -1,0 +1,1 @@
+return (new System.Uri(Assembly.GetExecutingAssembly().Location)).LocalPath;

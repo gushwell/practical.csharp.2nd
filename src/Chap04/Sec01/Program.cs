@@ -1,0 +1,9 @@
+﻿Code4_1.Good();
+Code4_2.Good();
+Code4_2.Bad();
+Code4_3.Good();
+Code4_4.Good();
+Code4_5.Good();
+Code4_5.Bad();
+Code4_6.Good();
+Code4_6.Bad();

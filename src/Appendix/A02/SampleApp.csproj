@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- <Version>1.2.3.4-beta</Version> -->
+    <VersionPrefix>4.1.0</VersionPrefix>
+    <VersionSuffix>rc.1</VersionSuffix>
+    <AssemblyVersion>5.6.7.8</AssemblyVersion>
+    <FileVersion>6.7.8.9</FileVersion> 
+    <IncludeSourceRevisionInInformationalVersion>true</IncludeSourceRevisionInInformationalVersion> 
+  </PropertyGroup>
+
+</Project>

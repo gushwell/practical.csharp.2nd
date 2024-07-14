@@ -1,0 +1,2 @@
+using ConfigSample.Options;
+var builder = WebApplication.CreateBuilder(args);builder.Services.AddRazorPages();builder.Services.Configure<BackupOption>(builder.Configuration.GetSection("BackupOption"));var app = builder.Build();

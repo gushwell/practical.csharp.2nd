@@ -1,0 +1,10 @@
+{
+    "vssolution.win32Encoding": {
+        "932": "Shift_JIS",
+        "936": "GBK",
+        "950": "BIG5"
+    },
+    "[markdown]": {
+        "editor.tabSize": 4
+    }
+}

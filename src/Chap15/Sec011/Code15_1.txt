@@ -1,0 +1,4 @@
+// このプロジェクトでは、Code15.4のGreetingBaseを有効にしているため、.txtにしている。
+abstract class GreetingBase {
+    public virtual string GetMessage() => "";
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee>
+    <Id>123</Id>
+    <Name>山田太郎</Name>
+    <HireDate>2018-10-01T00:00:00</HireDate>
+  </Employee>
+  <Employee>
+    <Id>198</Id>
+    <Name>田中華子</Name>
+    <HireDate>2020-04-01T00:00:00</HireDate>
+  </Employee>
+</Employees>

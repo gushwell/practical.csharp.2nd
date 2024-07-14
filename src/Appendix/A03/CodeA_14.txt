@@ -1,0 +1,8 @@
+public class TestModel : PageModel {
+    private readonly BackupOption _option;
+    public Test2Model(IOptions<BackupOption> options) {
+        _option = options.Value;
+    }
+    public ContentResult OnGet() {
+        return Content(option.ToString());
+    }}

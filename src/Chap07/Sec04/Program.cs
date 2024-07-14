@@ -1,0 +1,10 @@
+﻿Code7_20.Run();
+// Code7_20.Bad();
+Code7_21.Run();
+// Code7_21.Bad();
+Code7_22.Run();
+Code7_23.Run();
+Code7_24.Run();
+Code7_25.Run();
+Code7_26.Run();
+Code7_27.Run();

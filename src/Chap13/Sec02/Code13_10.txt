@@ -1,0 +1,10 @@
+public IDictionary<string, int> GetPerStoreSales()
+{
+    return _sales.GroupBy(x => x.ShopName)
+        .Select(x => new {
+            ShopName = x.Key,
+            Amount = x.Sum(s => s.Amount)
+        })
+        .ToDictionary(x => x.ShopName, x => x.Amount);
+}
+
