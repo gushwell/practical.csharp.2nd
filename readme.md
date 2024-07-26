@@ -274,5 +274,5 @@ Visual Studioのコードメトリックスの使い方
 コンパイラの警告は無視してはいけない  
 
 ---
-<img src="img/csbook_pop.jpeg" width="600"/>
+<img src="img/csbook_pop.jpeg" width="700"/>
 
