@@ -2,7 +2,7 @@
 
 [［改訂新版］実戦で役立つ C#プログラミングのイディオム/定石＆パターン](https://gihyo.jp/book/2024/978-4-297-14307-7)のサポートページです。
 
-<img src="cover_image.png" width="350"/>
+<img src="img/cover_image.png" width="350"/>
 
 ## 書誌情報
 
@@ -272,3 +272,7 @@ XMLコメント（ドキュメントコメント）とVisual Studio
 プログラミングの一般原則  
 Visual Studioのコードメトリックスの使い方  
 コンパイラの警告は無視してはいけない  
+
+---
+<img src="img/csbook_pop.jpeg" width="600"/>
+
