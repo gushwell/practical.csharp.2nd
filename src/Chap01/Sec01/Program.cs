@@ -2,7 +2,7 @@
 Product daifuku = new Product(253, "大福もち", 160);
 
 Console.WriteLine(karinto.Price);
-Console.WriteLine(karinto.daifuku);
+Console.WriteLine(daifuku.Price);
 
 
 int karintoTax = karinto.GetTax();
