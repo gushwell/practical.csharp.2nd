@@ -5,7 +5,7 @@ class Code1_14 {
         // nullを許容する
         string? nullableText = "C# Programming";
 
-        text = null;            //- エラー
+        text = null;            //- ワーニング　（無視してはいけない）
         nullableText = null;    //- OK
 
     }
